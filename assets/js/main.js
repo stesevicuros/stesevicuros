@@ -4,7 +4,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-setTimeout(() => document.querySelector('body').classList.remove('is-preload'), 100);
+setTimeout(
+	() => document.querySelector('body').classList.remove('is-preload'),
+	100
+);
 
 function copyEmail(text, event) {
 	var dummy = document.createElement('input');
@@ -23,7 +26,7 @@ function resetTooltip(event) {
 }
 
 const emailForm = document.getElementById('emailForm');
-emailForm.addEventListener('submit', e => {
+emailForm.addEventListener('submit', (e) => {
 	console.log('LMAO');
 	e.preventDefault();
 
@@ -33,7 +36,7 @@ emailForm.addEventListener('submit', e => {
 	button.className += ' button-loading';
 
 	const request = new XMLHttpRequest();
-	request.open('post', 'https://formspree.io/xeqpoowe');
+	request.open('post', 'https://formspree.io/f/xnqwrjep');
 	request.setRequestHeader('Accept', 'application/json');
 	request.onreadystatechange = () => {
 		if (request.readyState === 4) {

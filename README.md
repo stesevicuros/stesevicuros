@@ -1,7 +1,7 @@
 ### Hi there, I'm Uros 👋
 <img align="right" alt="GIF" width="500" height="320" src="https://github.com/stesevicuros/stesevicuros/blob/master/programmer.gif" />
 
-I'm a passionate self-tought full-stack developer. Currently looking for work.
+I'm a passionate self-tought full-stack developer. I dropped out of University to pursue my dream of becoming a developer. Currently looking for work.
 
 ### My Interests:
 

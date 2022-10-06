@@ -3247,3 +3247,7 @@ textarea:-webkit-autofill:hover {
 .project li {
 	text-align: justify;
 }
+
+.exp-list li {
+	margin-bottom: 0.5rem !important;
+}
